@@ -1,0 +1,61 @@
+window {
+
+    font-family: BigBlueTerm437NerdFont, monospace;
+    font-size: 12pt;
+    color: #00c0ff;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .9);
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    border: none;
+    color: #00c0ff;         /* text color */
+    text-shadow: none;
+    border-radius: 2px;
+    background-color: rgba(1, 121, 111, 0);
+    margin: 2px;
+    transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(213, 196, 161, 0.1);
+}
+
+/* Adjust specific button styles as needed */
+#lock {
+background-image: url("/home/trevor/.config/wlogout/icons/lock.png");
+}
+#lock:focus {
+background-image: url("/home/trevor/.config/wlogout/icons/lock-hover.png");
+}
+
+#logout {
+background-image: url("/home/trevor/.config/wlogout/icons/logout.png");
+}
+#logout:focus {
+background-image: url("/home/trevor/.config/wlogout/icons/logout-hover.png");
+}
+
+#suspend {
+background-image: url("/home/trevor/.config/wlogout/icons/sleep.png");
+}
+#suspend:focus {
+background-image: url("/home/trevor/.config/wlogout/icons/sleep-hover.png");
+}
+
+#shutdown {
+background-image: url("/home/trevor/.config/wlogout/icons/power.png");
+}
+#shutdown:focus {
+background-image: url("/home/trevor/.config/wlogout/icons/power-hover.png");
+}
+
+#reboot {
+background-image: url("/home/trevor/.config/wlogout/icons/restart.png");
+}
+#reboot:focus {
+background-image: url("/home/trevor/.config/wlogout/icons/restart-hover.png");
+}

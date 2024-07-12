@@ -1,0 +1,58 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+
+// ### DEFAULT - Top ### //
+{
+"include": "~/.config/waybar/modules",
+"layer": "top",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 3,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 3,
+"margin-left": 8,
+"margin-right": 8,
+
+"modules-left": [
+	"cpu",
+	"custom/separator#dot-line",
+//	"temperature",
+//	"custom/separator#dot-line",
+	"memory",
+	"custom/separator#dot-line",
+	"network#speed",
+	],
+
+"modules-center": [
+
+//	"idle_inhibitor",
+//	"custom/separator#dot-line",
+	"hyprland/workspaces",
+
+	],
+
+"modules-right": [
+
+
+	"tray",
+	"mpris",
+	"custom/separator#dot-line",
+//	"bluetooth",
+	"backlight",
+	"custom/separator#dot-line",
+	"pulseaudio",
+	"custom/separator#dot-line",
+//	"pulseaudio#microphone",
+//	"custom/separator#dot-line",
+//	"keyboard-state",
+//	"custom/separator#dot-line",
+//	"custom/keyboard",
+	"battery",
+	"custom/separator#dot-line",
+	"clock",
+	"custom/separator#dot-line",
+	"custom/power",
+	],
+}
