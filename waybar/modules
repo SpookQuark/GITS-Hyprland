@@ -379,7 +379,7 @@
 	"format-alt": "{:%A, %d %B, %Y (%R)}"
 },
 "cpu": {
-	"format": "<span color='#f801e8' font='12'>󰍛</span> {usage}%",
+	"format": "<span color='#f801e8' font='12'> 󰍛</span> {usage}%",
 	"interval": 1,
 	"min-length": 5,
 	"format-alt-click": "click",
@@ -548,6 +548,7 @@
 			"<span color='#f801e8'>󰕾 </span>",
 			"<span color='#f801e8'> </span>"
 		],
+
 		"ignored-sinks": [
 			"Easy Effects Sink"
 		],

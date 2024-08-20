@@ -8,14 +8,14 @@
     font-family: "BigBlueTerm437NerdFont";
     font-weight: bold;
     min-height: 0;
-    /* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
-    font-size: 13px;
+    /* set font-size to 100% if font scaling is set to 1.00 using nwg-look, also changes height of bar */
+    font-size: 16px;
     font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
 }
 
 window#waybar {
     background: transparent;
-    color: #c0f0ff;
+    color: #ff007f;
 }
 
 window#waybar.hidden {
@@ -40,7 +40,7 @@ tooltip {
 
 /*------------------module groups--------------------*/
 .modules-right {
-    border: 2px solid #00c0ff;
+    border: 3px solid #00c0ff;
     border-radius: 20px;
     background-color: #050e14;
     padding-top: 0px;
@@ -50,7 +50,7 @@ tooltip {
 }
 
 .modules-center {
-    border: 2px solid #00c0ff;
+    border: 3px solid #00c0ff;
     background-color: #050e14;
     border-radius: 20px;
     padding-top: 0px;
@@ -61,7 +61,7 @@ tooltip {
 
 .modules-left {
     /*background-color: #1e1e2e;*/
-    border: 2px solid #00c0ff;
+    border: 3px solid #00c0ff;
     border-radius: 20px;
     background-color: #050e14;
     padding-top: 0px;
@@ -97,7 +97,7 @@ color: #c0f0ff;
 }
 
 #workspaces button.urgent {
-color: #11111b;
+color: #ff007f;
 border-radius: 10px;
 }
 
@@ -149,7 +149,7 @@ padding-left: 2px;
 }
 
 #tray {
-    background-color: #c0f0ff;
+    background-color: transparent;
     border-radius: 20px;
 
     margin-top:3px;
@@ -160,7 +160,7 @@ padding-left: 2px;
     padding-top: 1px;
     padding-bottom: 1px;
     padding-right: 2px;
-    padding-left: 2px;
+    padding-left: 6px;
 
 }
 
